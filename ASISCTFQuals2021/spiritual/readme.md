@@ -8,7 +8,7 @@ Solution
 =========
 The order of elliptic curve is: 
 ```math
-#E(F_p) = p-1 + t
+E(F_p) = p-1 + t
 ```.
 
 For extended fields: ```math #E(F_p^k) = p-1 + V_k```, where ```V_k``` is defined recursively: ```V_0 = 1, V_1 = t, V_n = V_1xV_{n-1} - px V_{n-2}```
